@@ -5,6 +5,14 @@ const deleteBtn = document.querySelector('.delete');
 const main = notesEl.querySelector('.main');
 const textArea = notesEl.querySelector('textarea');
 
+const addBtn = document.getElementById('add');
+
+addBtn.addEventListener('click' || 'touchstart', () => {
+    addNewNote();
+})
+
+
+
 editBtn.addEventListener('click' || 'touchstart', () => {
 
     main.classList.toggle('hidden');
