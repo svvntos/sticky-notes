@@ -28,7 +28,7 @@ body {
 .note {
     background-color: #ffff;
     box-shadow: 0 0 5em 3em 2em rgba(0,0,0,0.1) ;
-    margin: 1rem;
+    margin: 15rem 5rem -10rem 5rem;
     height: 27rem;
     width: 22.5rem;
 
@@ -62,7 +62,7 @@ body {
     font-family: inherit;
     font-size: 1.6em;
     border: none;
-    height: 10em;
+    height: 25rem;
     width: 100%;
 }
 
