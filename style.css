@@ -14,6 +14,8 @@ body {
 
 .add {
     background-color: #9ec862;
+    font-size: .8em;
+    cursor: pointer;
     border-radius: .5em;
     border: none;
     color: white;
@@ -23,37 +25,39 @@ body {
     right: 1rem;
 }
 
-.notes {
+.note {
     background-color: #ffff;
+    box-shadow: 0 0 5em 3em 2em rgba(0,0,0,0.1) ;
     margin: 1rem;
     height: 27rem;
     width: 22.5rem;
 
 }
 
-.notes .tools{
+.note .tools {
     background-color: #9ec862;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
 }
 
-.notes .tools button {
+.note .tools button {
     background-color: transparent;
+    cursor: pointer;
     border: none;
     color: #fff;
     font: 1.5em;
     margin-left: 0.8rem;
 }
 
-.notes .main {
+.note .main {
     background-color: #fff;
     overflow: hidden;
     height: 10em;
     width: 100%;
 }
 
-.notes textarea {
+.note textarea {
     outline: none;
     font-family: inherit;
     font-size: 1.6em;
@@ -62,6 +66,6 @@ body {
     width: 100%;
 }
 
-.notes .hidden{
+.note .hidden{
     display: none;
 }
